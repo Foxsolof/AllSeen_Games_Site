@@ -1,0 +1,63 @@
+.oyun-tanıtım{
+    position: absolute;
+    top:  40px;
+    right: 30px;
+    color: transparent;
+    font-size: 40px;
+   background-image: url(resimlerim/NSbgtext.png);
+   background-clip: text;
+   -webkit-background-clip: text;
+   background-size: 30px;
+   transform : translateX(-20px);
+  
+    
+}
+.tsun{
+    
+    font-size: 40px;
+    width: 700px;
+    margin-top: 80px;
+    margin-left: 120px;
+    background-color: green;
+    border-radius:50px;
+    padding: 20px 20px;
+    border: 2px solid #a1a1a1; 
+    display: inline-block; 
+   vertical-align: top;
+}
+body{
+    position: relative;
+    background-image: url("resimlerim/NSbg.png");
+    background-size: 42px;
+}
+.videz{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.yazi{
+    color: snow;
+    -webkit-text-stroke:0.2px black;
+   
+}
+.sunum{
+    margin:100px 0 0 200px;
+    width: 6%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+}
+.sunum img{
+    width: 100%;
+    height: 10%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid snow;
+    transition: all ease-in-out 0.5s;
+}
+.sunum img:hover{
+    height: 15%;
+    width: 150%;
+
+}

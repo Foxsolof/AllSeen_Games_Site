@@ -1,0 +1,59 @@
+.oyun-tanıtım{
+    position: absolute;
+    top:  40px;
+    right: 30px;
+    color: palevioletred;
+    text-shadow:0 0 4px #1f0ce9,0 0 4px #1f0ce9,0 0 4px #1f0ce9;
+    font-size: 40px;
+   transform : translateX(-20px);
+  
+    
+}
+.tsun{
+    
+    font-size: 40px;
+    width: 700px;
+    margin-top: 80px;
+    margin-left: 120px;
+    background-color: palevioletred;
+    border-radius:50px;
+    padding: 20px 20px;
+    border: 2px solid #1f0ce9; 
+    display: inline-block; 
+   vertical-align: top;
+}
+body{
+    position: relative;
+    background-image: url("resimlerim/tasduvar.png");
+    background-size: 60px;
+}
+.videz{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.yazi{
+    color: snow;
+    -webkit-text-stroke:0.2px black;
+   
+}
+.sunum{
+    height: 700px;
+width: 6%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 5px;
+}
+.sunum img{
+    height: 10%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid snow;
+    transition: all ease-in-out 0.5s;
+}
+.sunum img:hover{
+    height: 20%;
+    width: 200%;
+}

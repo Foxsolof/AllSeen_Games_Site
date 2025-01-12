@@ -1,0 +1,32 @@
+p{
+    font-size: 20;
+}
+.uyar{
+    font-size: 20;
+    color: chartreuse;
+    border: 3px 10px 10px 10px;
+    border-color: white;
+    border-style: outset;
+    margin-top: 100px;
+    text-shadow: 0 0 7px aqua,0 0 10px aqua,0 0 12px aqua,0 0 15px aqua,0 0 17px aqua;
+}
+.kızgın{
+    font-size: 50;
+    color: red;
+    border: 3px 10px 10px 10px;
+    border-color: white;
+    border-style: outset;
+    text-shadow: 0 0 7px red,0 0 10px red,0 0 12px pink,0 0 15px pink,0 0 17px purple;
+}
+body{
+    background-color: black;
+}
+.baslik{
+    font-size: 24;
+    color: chartreuse;
+    border: 50px 10px 10px 10px;
+    border-color: white;
+    border-style: outset;
+    text-shadow: 0 0 7px aqua,0 0 10px aqua,0 0 12px aqua,0 0 15px aqua;
+}
+

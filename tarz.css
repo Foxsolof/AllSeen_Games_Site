@@ -1,0 +1,43 @@
+p{
+    font-size: 32px;
+    font-family: Arial;
+    font-weight: bold;
+    border:3px;
+    border-color: blueviolet;
+    border-style: outset;
+}
+h1{
+    font-size: 32px;
+   
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-weight: bold;
+    border:3px;
+    border-color: rgb(1, 255, 35);
+    border-style: outset;
+
+}
+img{
+    border-color: red;
+    border:60px ;
+    border-bottom: 2px;
+    border-style: outset;
+
+}
+.deney{
+    color: chocolate;
+}
+.yesil{
+    color: greenyellow;
+    font-size: 30px;
+    background-color: green;
+    border-radius:50px;
+    padding: 20px 20px;
+    border: 2px solid #a1a1a1;
+    width: 450px;
+    height: 100px;
+    margin-left: 50px;
+    float: left;
+    text-align: center;
+
+}
